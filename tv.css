@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.full-screen {
+    height: 100%;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-text {
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 10rem;
+    color: transparent;
+}
+
+@media (max-width: 480px) {
+    .tv-text {
+        font-size: 5rem;
+        margin: auto 5rem;
+    }
+}
